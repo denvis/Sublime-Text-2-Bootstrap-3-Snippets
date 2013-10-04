@@ -1,13 +1,14 @@
 <snippet>
   <content><![CDATA[
-<div class="row">
-  <div class="col-${1:lg}-${2:12}">
-    ${3:..}
+<div class="panel panel-${1:default}">
+  <div class="panel-heading">${2:Panel title}</div>
+  <div class="panel-body">
+    ${3:Panel content}
   </div>
 </div>
 ]]></content>
   <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
-  <tabTrigger>row</tabTrigger>
+  <tabTrigger>panel</tabTrigger>
   <!-- Optional: Set a scope to limit where the snippet will trigger -->
   <!-- <scope>source.python</scope> -->
 </snippet>
