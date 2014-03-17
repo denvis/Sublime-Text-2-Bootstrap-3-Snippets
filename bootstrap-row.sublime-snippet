@@ -1,10 +1,10 @@
 <snippet>
   <content><![CDATA[
 <div class="row">
-  <div class="col-${1:lg}-${2:12}">
-    ${3:..}
-  </div>
-</div>
+	<div class="col-${1:md}-${2:12} col-${3:lg}-${4:12}">
+		${5:..}
+	</div><!-- COL END -->
+</div><!-- ROW END -->
 ]]></content>
   <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
   <tabTrigger>row</tabTrigger>
